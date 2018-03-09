@@ -1,6 +1,6 @@
 # Business Intelligence and Data Warehouse Course
 
-## Session 11
+## Session 12
 
 The topic of this session is **Data Visualization**. This repository the content discuss in class. It includes:
 
