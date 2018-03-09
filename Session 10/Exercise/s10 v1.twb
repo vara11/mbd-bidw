@@ -159,7 +159,7 @@
         <calculation class='tableau' formula='IF [origin]=1&#10;THEN &apos;US&apos;&#10;ELSEIF  [origin]=2&#10;THEN &apos;Europe&apos;&#10;ELSE &apos;Japan&apos;&#10;END' />
       </column>
       <column caption='Car Brand' datatype='string' name='[Calculation_570409082294542336]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='if ([car_name - Split 1]=&apos;toyouta&apos;) THEN&#10;&apos;Toyota&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes-benz&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;maxda&apos;) THEN&#10;&apos;mazda&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevy&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevroelt&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vw&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vokswagen&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;capri&apos;) THEN&#10;&apos;mercury&apos;&#10;ELSE [car_name - Split 1]&#10;END' />
+        <calculation class='tableau' formula='if ([car_name - Split 1]=&apos;toyouta&apos;) THEN&#10;&apos;toyota&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes-benz&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;maxda&apos;) THEN&#10;&apos;mazda&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevy&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevroelt&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vw&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vokswagen&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;capri&apos;) THEN&#10;&apos;mercury&apos;&#10;ELSE [car_name - Split 1]&#10;END' />
       </column>
       <column aggregation='None' datatype='integer' hidden='true' name='[Cylinders (bin)]' role='dimension' type='quantitative'>
         <calculation class='bin' decimals='0' formula='[cylinders]' peg='0' size='4' />
@@ -208,7 +208,7 @@
           <groupfilter function='level-members' level='[none:model_year:ok]' />
         </groupfilter>
       </group>
-      <layout dim-ordering='alphabetic' dim-percentage='0.43617' measure-ordering='alphabetic' measure-percentage='0.56383' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.388535' measure-ordering='alphabetic' measure-percentage='0.611465' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:car_name - Split 1:nk]' type='palette'>

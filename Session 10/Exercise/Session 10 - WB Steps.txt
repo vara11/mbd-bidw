@@ -21,7 +21,7 @@ STR([Model Year] + 1900)
 5. Create "Card Brand" creating a calculated field:
 
 if ([Brand]='toyouta') THEN
-'Toyota'
+'toyota'
 ELSEIF ([Brand]='mercedes') THEN
 'mercedes benz'
 ELSEIF ([Brand]='mercedes-benz') THEN
