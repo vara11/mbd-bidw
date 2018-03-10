@@ -2,4 +2,4 @@
 
 ## Session 5
 
-The topic of this session is **Data Modelling**. This repository includes the extra content discuss in class.
+The topic of this session is **Data Modelling**. This repository includes the content discussed in class.
