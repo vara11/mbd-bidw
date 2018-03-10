@@ -2,7 +2,7 @@
 
 ## Session 6
 
-The topic of this session is **Data Modelling**. This repository the content discuss in class. It includes:
+The topic of this session is **Data Modelling**. This repository includes the content discuss in class.
 
   - Datasets
   - Videos
@@ -18,17 +18,6 @@ The topic of this session is **Data Modelling**. This repository the content dis
 ## What you can learn in the videos
 
   - [PDI - Our First ETL](https://vimeo.com/234685308)
-  
-## References
-
-  - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
-  - [Hitachi Ventara Pentaho - Documentation PDI](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration)
-  - [PDI - Transformation Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference)
-  - [PDI - Job Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Job_Entry_Reference)
-  - [PDI - Market Place](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Marketplace)
-  - [Hitachi Ventara Pentaho - Community](https://community.hds.com/community/products-and-solutions/pentaho/)
-  - [Hitachi Ventara Pentaho - Wiki](https://wiki.pentaho.com)
-  - [Hitachi Ventara Pentaho - Wiki - PDI](https://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+(aka+Kettle)+Documentation)
 
 ## FAQ
 
@@ -71,3 +60,14 @@ sudo rm -rf jdk*
 
   - Download Java SE Development Kit 8u162 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
+
+## References
+
+  - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
+  - [Hitachi Ventara Pentaho - Documentation PDI](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration)
+  - [PDI - Transformation Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference)
+  - [PDI - Job Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Job_Entry_Reference)
+  - [PDI - Market Place](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Marketplace)
+  - [Hitachi Ventara Pentaho - Community](https://community.hds.com/community/products-and-solutions/pentaho/)
+  - [Hitachi Ventara Pentaho - Wiki](https://wiki.pentaho.com)
+  - [Hitachi Ventara Pentaho - Wiki - PDI](https://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+(aka+Kettle)+Documentation)
