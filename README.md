@@ -5,7 +5,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 ## Repository contents (by session)
 
   - Additional articles and documents
-  - MySQL WorkbenchSchema
+  - MySQL Workbench Schemas
   - ETL processes
   - Datasets
   - Tableau files
