@@ -26,12 +26,14 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install MySQL**
 
-  - Download the right version of MySQL and MySQL Workbench for you (Windows - just one installer or MAC - two files-)
+  - Download the right version of MySQL and MySQL Workbench for your OS 
     - MySQL: http://dev.mysql.com/downloads/mysql/
     - MySQL Workbench: http://dev.mysql.com/downloads/workbench/
   - Install all the programs and follow the instructions:
     - [Windows] During the installation process you will configure the password for root user (choose pentaho)
     - [Mac] A temporal password will be generated. You must start the database from the preferences menu, open MySQL Workbench and the first time you will connect the database you wil have the chance to change the temporal password.
+
+> Note: for Microsoft Windows it is just one installer for MAC, two files.
 
 **Install PDI**
 
@@ -63,7 +65,7 @@ sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integra
 
 We can access student licenses due to the Academic Partnership. Tableau has versions for Mac and Windows. Follow these instructions:
 
-  - Download the latest version of Tableau Desktop here
-  - Copy Tableau Desktop License from campus
+  - Download the latest version of Tableau Desktop [here](https://www.tableau.com/academic).
+  - Copy Tableau Desktop License from campus.
   - Install the software following the instructions in the screen.
   - Update your license in the application: Help menu -> Manage Product Keys
