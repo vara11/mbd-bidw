@@ -48,6 +48,8 @@ From this user story we can identify one dimension (date) and one fact table (bu
 
 From this second story it is clear that we need to add a new dimension to our model (campaign).
 
+Most of the times, we refer iterative/incremental development as [**Agile Data Modeling**](http://agiledata.org/essays/agileDataModeling.html).
+
 ### How do we track incremental changes?
 
 To keep track of incremental changes in the structure of the dimensional model, it is suitable to use a database change management tool. Some of the best known Open Source tools are [Flyway](https://flywaydb.org/), [Liquibase](http://www.liquibase.org/) or [DBDeploy](http://dbdeploy.com/).
