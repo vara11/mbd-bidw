@@ -2,7 +2,7 @@
 
 ## Session 11
 
-The topic of this session is **Data Visualization**. This repository the content discuss in class. It includes:
+The topic of this session is **Data Visualization**. This repository the content discussed in class:
 
   - Tableau Exercises
   - Tableau Examples
@@ -23,4 +23,3 @@ The topic of this session is **Data Visualization**. This repository the content
   - [Build and Explore Data Views](https://onlinehelp.tableau.com/current/pro/desktop/en-us/building_overview.html?TocPath=Design%20Views%20and%20Analyze%20Data|Build%20and%20Explore%20Data%20Views|_____0)
   - [Create Custom Fields with Calculations](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields.html)
   - [Create Parameters](https://onlinehelp.tableau.com/current/pro/desktop/en-us/parameters_create.html)
-
