@@ -2,7 +2,7 @@
 
 ## Session 6
 
-The topic of this session is **Data Modelling**. This repository includes the content discuss in class.
+The topic of this session is **Data Modelling**. This repository includes the content discussed in class.
 
   - Datasets
   - Videos
@@ -12,8 +12,8 @@ The topic of this session is **Data Modelling**. This repository includes the co
   - Watch the videos
   - If you want to reproduce download the dataset (customer_data.csv) and install the programs
   - Required Software:
-    - JDK
-	  - Pentaho Data Integration
+    - JDK v8
+    - Pentaho Data Integration (latest version)
   
 ## What you can learn in the videos
 
