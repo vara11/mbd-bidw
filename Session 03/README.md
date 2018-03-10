@@ -14,8 +14,10 @@ The topic of this session is **Data Modelling**. This repository includes the co
 	  - MySQL
 	  - MySQL Workbench
   - All schemas have been created with MySQL Workbench.
-  
-## MySQL Workbench flags 
+
+## FAQ
+
+### Which is the meaning of MySQL Workbench flags? 
 
 When creating attibutes with MSQL Workbench we can use different flags:
 
@@ -30,17 +32,27 @@ When creating attibutes with MSQL Workbench we can use different flags:
   
 More information here: https://dev.mysql.com/doc/workbench/en/wb-table-editor-columns-tab.html
 
-## References
+### Can we use an iterative/incremental development for the dw?
 
-  - [MySQL Documentation](https://dev.mysql.com/doc/)
-  - [MySQL Notes for Professionals](http://books.goalkicker.com/MySQLBook/)
-  - [SQL Tutorial](http://www.sqltutorial.org/)
-  - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
-  - [SQL Fundamentals (DDL & DML)](https://www.thoughtco.com/sql-fundamentals-1019780)
-  - [Glossary of Terms](https://www.thoughtco.com/databases-glossary-1019603)
-  - [About referential integrity](https://www.thoughtco.com/referential-integrity-definition-1019181)
-  
-## FAQs
+Yes. We can use user story as work unit to begin building and evolving the DW/BI system. For example, let's assume you have the following user story:
+ 
+**As** a Marketing Analyst
+**I need** the ability to see the marketing budget per year
+**In order to identify** the evolution of marketing budget
+
+From this user story we can identify one dimension (date) and one fact table (budget). If we now have, the following user story:
+
+**As** a Marketing Analyst
+**I need** the ability to see the marketing budget per campaign
+**In order to identify** the distribution of marketing budget per campaign
+
+From this second story it is clear that we need to add a new dimension to our model (campaign).
+
+### How do we track incremental changes?
+
+To keep track of incremental changes in the structure of the dimensional model, it is suitable to use a database change management tool. Some of the best known Open Source tools are [Flyway](https://flywaydb.org/), [Liquibase](http://www.liquibase.org/) or [DBDeploy](http://dbdeploy.com/).
+
+## What can I do if I forgot my MySQL password?
 
 If you forget your MySQL password or don't know how to change MySQL root password, follow these steps.
 
@@ -105,3 +117,13 @@ After this, you need to install again MySQL and keep the auto-generated password
  - Start the database (from the system preferences).
  - Open MySQL Workbench and create a connection. 
  - It will ask for the generated password. After that a new window will appear to propose a new password. Choose one easy to remember. After this you will be able to enter to the server with your new password.
+ 
+## References
+
+  - [MySQL Documentation](https://dev.mysql.com/doc/)
+  - [MySQL Notes for Professionals](http://books.goalkicker.com/MySQLBook/)
+  - [SQL Tutorial](http://www.sqltutorial.org/)
+  - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+  - [SQL Fundamentals (DDL & DML)](https://www.thoughtco.com/sql-fundamentals-1019780)
+  - [Glossary of Terms](https://www.thoughtco.com/databases-glossary-1019603)
+  - [About referential integrity](https://www.thoughtco.com/referential-integrity-definition-1019181)
