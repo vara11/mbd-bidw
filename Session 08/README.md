@@ -2,7 +2,7 @@
 
 ## Session 8
 
-The topic of this session is **Data Integration**. This repository includes the extra content discuss in class.
+The topic of this session is **Data Integration**. This repository includes the content discussed in class:
 
   - ETL processes
   - Videos
@@ -12,8 +12,8 @@ The topic of this session is **Data Integration**. This repository includes the 
 
   - Download the folder
   - Required Software:
-    - MySQL
-	  - MySQL Workbench
-	  - Pentaho Data Integration
-	  - Java JDK
+  	- MySQL
+	- MySQL Workbench
+  	- Pentaho Data Integration
+  	- Java JDK
   - All ETL processes have been created with Pentaho Data Integration.
