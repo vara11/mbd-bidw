@@ -2,6 +2,6 @@
 
 ## Session 1
 
-The topic of this session is **Business Intelligence**. This repository includes the extra content discuss in class:
+The topic of this session is **Business Intelligence**. This repository includes the content discussed in class:
 
   - Articles
