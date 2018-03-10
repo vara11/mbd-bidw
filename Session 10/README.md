@@ -2,7 +2,7 @@
 
 ## Session 10
 
-The topic of this session is **Data Analysis and Visualization**. This repository the content discussed in class. It includes:
+The topic of this session is **Data Analysis and Visualization**. This repository includes the extra content discussed in class. It includes:
 
   - Tableau files
   - Videos
@@ -23,3 +23,4 @@ The topic of this session is **Data Analysis and Visualization**. This repositor
    - [Data + Design](https://infoactive.co/data-design/titlepage01.html)
    - [Visualizing Data](http://www.visualisingdata.com/resources/)
    - [The Extreme Presentation™ Method](https://extremepresentation.com)
+   - [Teaching data visualization: Recommended readings and resources](http://www.mulinblog.com/teaching-data-visualization-recommended-readings-and-resources/)
