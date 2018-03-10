@@ -10,7 +10,7 @@ The topic of this session is **Data Analysis and Visualization**. This repositor
   - Guides
   - Self-learning Tutorials
   
-## How to use this content:
+## How to use this content
 
   - Download the folder
   - Required Software:
@@ -18,7 +18,7 @@ The topic of this session is **Data Analysis and Visualization**. This repositor
 	  - MySQL
   - All analysis files have been created with Tableau.
   
-  ## Resources:
+  ## References
   
    - [Data + Design](https://infoactive.co/data-design/titlepage01.html)
    - [Visualizing Data](http://www.visualisingdata.com/resources/)
