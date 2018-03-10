@@ -2,7 +2,7 @@
 
 ## Session 10
 
-The topic of this session is **Data Analysis and Visualization**. This repository includes the extra content discussed in class. It includes:
+The topic of this session is **Data Analysis and Visualization**. This repository includes the content discussed in class:
 
   - Tableau files
   - Videos
