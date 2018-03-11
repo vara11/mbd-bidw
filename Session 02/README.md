@@ -6,7 +6,7 @@ The topic of this session is the components of **Business Intelligence**. This r
 
 ## FAQ
 
-### Do we have different environment in DW/BI?
+### Do we have different environments in DW/BI?
 
 Yes. We can have four environments:
 
