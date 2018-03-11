@@ -27,15 +27,15 @@ The topic of this session is **Data Modelling**. This repository includes the co
 
   - CIF (Inmon)
   	- Easy to maintain
-	- Structured
-	- Easier data mining
-	- Timely to build
+	  - Structured
+	  - Easier data mining
+	  - Timely to build
   - MD (Kimball)
-    	- Start small, scale big
-	- Faster ROI
-	- Analytical Tools
-	- Low reusability
+	  - Start small, scale big
+	  - Faster ROI
+	  - Analytical Tools
+	  - Low reusability
   - Data Vault (Lyndsted)
-    	- Backend Data Warehouse
-	- Multiple sources; Full history; Incremental build
-	- Up-front work; Long-term payoff; Many joins
+	  - Backend Data Warehouse
+	  - Multiple sources; Full history; Incremental build
+	  - Up-front work; Long-term payoff; Many joins
