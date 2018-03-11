@@ -36,15 +36,15 @@ More information here: https://dev.mysql.com/doc/workbench/en/wb-table-editor-co
 
 Yes. We can use user story as work unit to begin building and evolving the DW/BI system. For example, let's assume you have the following user story:
  
-**As** a Marketing Analyst
-**I need** the ability to see the marketing budget per year
-**In order to identify** the evolution of marketing budget
+> **As** a Marketing Analyst
+> **I need** the ability to see the marketing budget per year
+> **In order to identify** the evolution of marketing budget
 
-From this user story we can identify one dimension (date) and one fact table (budget). If we now have, the following user story:
+From this user story we can identify one dimension (date) and one fact table (budget). Let's assume now a new user story:
 
-**As** a Marketing Analyst
-**I need** the ability to see the marketing budget per campaign
-**In order to identify** the distribution of marketing budget per campaign
+> **As** a Marketing Analyst
+> **I need** the ability to see the marketing budget per campaign
+> **In order to identify** the distribution of marketing budget per campaign
 
 From this second story it is clear that we need to add a new dimension to our model (campaign).
 
