@@ -38,4 +38,4 @@ The topic of this session is **Data Modelling**. This repository includes the co
   - Data Vault (Lyndsted)
     	- Backend Data Warehouse
 	- Multiple sources; Full history; Incremental build
-	- Up-frontwork;Long-termpayoff;Manyjoins
+	- Up-front work; Long-term payoff; Many joins
