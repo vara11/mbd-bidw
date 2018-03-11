@@ -27,9 +27,9 @@ The topic of this session is **Data Modelling**. This repository includes the co
 
   - CIF (Inmon)
   	- Easy to maintain
-	  - Structured
-	  - Easier data mining
-	  - Timely to build
+  	- Structured
+  	- Easier data mining
+  	- Timely to build
   - MD (Kimball)
 	  - Start small, scale big
 	  - Faster ROI
