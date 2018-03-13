@@ -50,7 +50,7 @@ We will use the community version of Pentaho Data Integration (a.k.a PDI). It ca
 cd /Applications/data-integration/
 ./spoon.sh
 ```    
-  - [Optional] Active data-integration.app as a double-click app using the terminal:
+  - [Optional] Activate data-integration.app as a double-click app using the terminal:
   
 ``` 
 sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integration.app
