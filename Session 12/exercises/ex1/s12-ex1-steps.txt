@@ -1,0 +1,7 @@
+Steps
+
+1. Open s12-ex1.tde
+2. Create arrival delay vs departure delay analysis
+3. Create a story using only this analysis
+
+Extra: Can you create a story to explain the worst carrier?
