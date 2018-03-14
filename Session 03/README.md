@@ -4,8 +4,10 @@
 
 The topic of this session is **Data Modelling**. This repository includes the content discussed in class:
 
-  - Schemas
-  - Videos
+  - Concepts
+  - Exercises (schemas)
+  - FAQ
+  - References
 
 ## Main concepts discussed
 
