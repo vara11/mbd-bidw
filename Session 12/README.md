@@ -2,12 +2,17 @@
 
 ## Session 12
 
-The topic of this session is **Data Visualization**. This repository the content discussed in class:
+The topic of this session is **Data Visualization**. This repository includes the content discussed in class:
 
-  - Tableau Exercises
-  - Tableau Examples
-  - Videos
-  - Data Sets
+  - Exercises
+  - Examples
+  - FAQ
+
+## Main Concepts
+
+  - What is data visualization
+  - What is data storytelling
+  - How to create a data story (with Tableau)
   
 ## How to use this content
 
