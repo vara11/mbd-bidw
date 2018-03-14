@@ -7,6 +7,13 @@ The topic of this session is **Data Modelling**. This repository includes the co
   - Schemas
   - Videos
 
+## Main concepts discussed
+
+  - **Star Schema**: A single large central fact table (business process to analyze) and one table for each dimension (business perspective of analysis).
+  - **Snowflake Schema**: Variant of star schema model. It consist in a single, large and central fact table and one or more tables for each dimension. Dimension tables are normalized split dimension table data into additional tables
+  - **Fact Constellation**: Multiple fact tables share dimension tables. This schema is viewed as collection of stars hence.
+  - **Data Vault**: novel approach for data modelling. It be understood as a hybrid approach encompassing the best of breed between 3NF and Star Schemas. It is based on hubs (business concepts), links (relations between hubs) and satellites (attributes for links and hubs). 
+ 
 ## How to use this content
 
   - Download the folder and don't modified the structure
