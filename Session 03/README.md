@@ -5,11 +5,11 @@
 The topic of this session is **Data Modelling**. This repository includes the content discussed in class:
 
   - Concepts
-  - Exercises (schemas)
+  - Exercises
   - FAQ
   - References
 
-## Main concepts discussed
+## Main concepts
 
   - **Star Schema**: A single large central fact table (business process to analyze) and one table for each dimension (business perspective of analysis).
   - **Snowflake Schema**: Variant of star schema model. It consist in a single, large and central fact table and one or more tables for each dimension. Dimension tables are normalized split dimension table data into additional tables
