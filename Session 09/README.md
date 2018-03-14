@@ -6,9 +6,16 @@ The topic of this session is **Data Governance**. This repository includes the e
 
   - Articles
 
+## Main concepts
+
+  - What is Data Governance
+  - Data Governance Tasks
+  - Data Governance Functions
+  - Data Governance Roles
+
 ## FAQ
 
-### What if the latest version is not working for my OS?
+### What if the latest version of Tableau is not working for my OS?
 
 Check the compatibility and download a previous release compatible with your OS from this [website](https://www.tableau.com/support/releases).
 
