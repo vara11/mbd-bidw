@@ -2,13 +2,19 @@
 
 ## Session 11
 
-The topic of this session is **Data Visualization**. This repository the content discussed in class:
+The topic of this session is **Dashboards**. This repository includes the content discussed in class:
 
-  - Tableau Exercises
-  - Tableau Examples
-  - Videos
-  - Data Sets
-  
+  - Articles
+  - Exercises
+  - Examples
+  - References
+
+## Main concepts
+
+  - What is a dashboard
+  - Elements of a dashboard
+  - How to built a dashboard
+
 ## How to use this content
 
   - Download the folder
