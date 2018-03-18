@@ -22,8 +22,13 @@ The topic of this session is **Data Visualization**. This repository includes th
 	  - Tableau
   - All analysis files have been created with Tableau.
   
- ## FAQ
+## FAQ
  
- ### How to improve Tableau Performance
+### How to improve Tableau Performance
  
 Tableau is an in-memory tool. When working with this tool we need to consider some details to improve its performance. Review the following article for more information: https://www.tableau.com/about/blog/2016/1/5-tips-make-your-dashboards-more-performant-48574
+
+## References
+
+  - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
+  - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
