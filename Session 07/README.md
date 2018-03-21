@@ -23,3 +23,11 @@ The topic of this session is **Data Integration**. This repository includes the 
 ### Does PDI support user input?
 
 Yes. It supports arguments, parameters and variables. You can read about it [here](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Data_Integration_Perspective/050).
+
+### How we can create an ETL environment independent?
+
+Using varialble in the path such as
+
+``` 
+${Internal.Entry.Current.Directory}
+``` 

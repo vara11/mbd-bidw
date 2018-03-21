@@ -9,3 +9,5 @@ The topic of this session is **Data Modelling**. This repository includes the co
 ### What can I do if I don't have access to the data yet?
 
 You can generate random data to start working. For example, you can use [Mockaroo](https://www.mockaroo.com/).
+
+Another option is to generate synthetic data. There are many differen approaches that can be categorized into three main groups: synthetic reconstruction, combinatorial optimization, and model-based generation.
