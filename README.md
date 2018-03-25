@@ -56,7 +56,7 @@ cd /Applications/data-integration/
 sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integration.app
 ```  
 
-  - Install MySLQ plugin for PDI:
+  - Install MySQL plugin for PDI:
     - Open PDI
     - Go the tools menu > Marketplace > MySQL Plugin and install
     - Restart PDI
