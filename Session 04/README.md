@@ -2,10 +2,14 @@
 
 ## Session 4
 
-The topic of this session is **Data Modelling**. This repository includes the content discussed in class:
+The topic of this session is **Data Modelling** (in particular, data warehouse modelling). This repository includes the content discussed in class:
 
   - Datasets
   - Videos
+
+## Main Concepts
+
+  - Data Warehouse design and implementation
 
 ## How to use this content
 
