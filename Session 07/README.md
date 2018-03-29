@@ -2,15 +2,20 @@
 
 ## Session 7
 
-The topic of this session is **Data Integration**. This repository includes the content discussed in class.
+The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class.
 
   - ETL processes
   - Videos
   - Data Sets
 
+## Main Concepts
+
+  - ETL subsystems
+  - ETL design and implementation
+
 ## How to use this content
 
-  - Download the folder
+  - Download the folders
   - Required Software:
 	  - MySQL
 	  - Pentaho Data Integration
@@ -24,7 +29,7 @@ The topic of this session is **Data Integration**. This repository includes the 
 
 Yes. It supports arguments, parameters and variables. You can read about it [here](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Data_Integration_Perspective/050).
 
-### How we can create an ETL environment independent?
+### How can we create an ETL environment independent?
 
 Using varialble in the path such as
 
