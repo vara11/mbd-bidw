@@ -2,7 +2,7 @@
 
 ## Session 10
 
-The topic of this session is **Data Analysis and Visualization**. This repository includes the content discussed in class:
+The topic of this session is **Reporting**. This repository includes the content discussed in class:
 
   - Tableau files
   - Videos
@@ -10,9 +10,15 @@ The topic of this session is **Data Analysis and Visualization**. This repositor
   - Guides
   - Self-learning Tutorials
   
+## Main Concepts
+
+  - What is report, reporting and reporting platform
+  - Elements of a report
+  - Types of charts
+  
 ## How to use this content
 
-  - Download the folder
+  - Download the folders
   - Required Software:
 	  - Tableau
 	  - MySQL
