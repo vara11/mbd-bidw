@@ -6,9 +6,7 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 ## Main Concepts
 
-  - What is data integration
-  - What is ETL
-  - ETL subsystems
+  - Data Warehouse design and implementation
 
 ## FAQ
 
