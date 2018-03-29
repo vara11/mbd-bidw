@@ -69,3 +69,9 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
   - Copy Tableau Desktop License from campus.
   - Install the software following the instructions in the screen.
   - Update your license in the application: Help menu -> Manage Product Keys
+
+## FAQ
+
+### Is there a Pentaho Release Product Version Matrix?
+
+Yes! You can find it [here](https://wiki.pentaho.com/display/PEOpen/Pentaho+Release+Product+Version+Matrix+8.x).
