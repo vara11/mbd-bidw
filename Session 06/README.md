@@ -2,10 +2,16 @@
 
 ## Session 6
 
-The topic of this session is **Data Modelling**. This repository includes the content discussed in class.
+The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class.
 
   - Datasets
   - Videos
+
+## Main Concepts
+
+  - What is data integration
+  - What is ETL
+  - ETL subsystems
 
 ## How to use this content
 
