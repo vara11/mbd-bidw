@@ -17,14 +17,14 @@ Yes. We can have four environments:
  
  A DW/BI must have, at least, the first two.
  
- ### Is it recommended to use Control Version System in DW/BI?
+ ### Is it recommended to use a Control Version System in DW/BI?
  
 Yes. It is recommended to use a version control system (SCM) to version all artifacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
 
-### How we can provision the different environments?
+### How can we provision the different environments?
 
 This usually is called **IaC** (Infrastructure as Code). Infrastructure as Code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system. We can use, for example, [Ansible](https://www.ansible.com/), a platform that allows you to create YAML code for provisioning environments, and works together with [Vagrant](https://www.vagrantup.com/) which is a virtual environment manager.
 
-### Does it makes sense to have a PSA (Persistent Staging Area) in your EDW (Enterprise Data Warehouse)?
+### Does it make sense to have a PSA (Persistent Staging Area) in your EDW (Enterprise Data Warehouse)?
 
-In short, **no**. You can read an interesting discussion about Pros and Cons [here](https://www.hansmichiels.com/2017/02/18/using-a-persistent-staging-area-what-why-and-how/).
+In short, **NO**. You can read an interesting discussion about Pros and Cons [here](https://www.hansmichiels.com/2017/02/18/using-a-persistent-staging-area-what-why-and-how/).
