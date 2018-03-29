@@ -16,6 +16,7 @@ The topic of this session is **Data Integration** (in particular, ETL). This rep
 ## How to use this content
 
   - Watch the videos
+  - Download the folder
   - If you want to reproduce download the dataset (customer_data.csv) and install the programs
   - Required Software:
     - JDK v8
