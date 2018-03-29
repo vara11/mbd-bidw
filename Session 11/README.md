@@ -2,7 +2,7 @@
 
 ## Session 11
 
-The topic of this session is **Dashboards**. This repository includes the content discussed in class:
+The topic of this session is **Dashboard**. This repository includes the content discussed in class:
 
   - Articles
   - Exercises
@@ -17,7 +17,7 @@ The topic of this session is **Dashboards**. This repository includes the conten
 
 ## How to use this content
 
-  - Download the folder
+  - Download the folders
   - Required Software:
 	  - MySQL
 	  - Tableau
