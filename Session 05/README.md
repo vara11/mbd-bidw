@@ -2,7 +2,13 @@
 
 ## Session 5
 
-The topic of this session is **Data Modelling**. This repository includes the content discussed in class.
+The topic of this session is **Data Modelling** (in particular, data warehouse modelling). This repository includes the content discussed in class.
+
+## Main Concepts
+
+  - What is data integration
+  - What is ETL
+  - ETL subsystems
 
 ## FAQ
 
