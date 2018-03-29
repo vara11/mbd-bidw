@@ -2,7 +2,7 @@
 
 ## Session 12
 
-The topic of this session is **Data Visualization**. This repository includes the content discussed in class:
+The topic of this session is **Data Visualization and Data Storytelling**. This repository includes the content discussed in class:
 
   - Exercises
   - Examples
@@ -16,7 +16,7 @@ The topic of this session is **Data Visualization**. This repository includes th
   
 ## How to use this content
 
-  - Download the folder
+  - Download the folders
   - Required Software:
 	  - MySQL
 	  - Tableau
@@ -24,7 +24,7 @@ The topic of this session is **Data Visualization**. This repository includes th
   
 ## FAQ
  
-### How to improve Tableau Performance
+### How to improve Tableau performance
  
 Tableau is an in-memory tool. When working with this tool we need to consider some details to improve its performance. Review the following article for more information: https://www.tableau.com/about/blog/2016/1/5-tips-make-your-dashboards-more-performant-48574
 
