@@ -2,12 +2,16 @@
 
 ## Session 8
 
-The topic of this session is **Data Integration**. This repository includes the content discussed in class:
+The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class:
 
   - ETL processes
   - Videos
   - Data Sets
-  
+
+## Main Concepts
+
+  - ETL design and implementation
+
 ## How to use this content:
 
   - Download the folder
