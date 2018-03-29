@@ -28,7 +28,7 @@ The topic of this session is **Data Integration** (in particular, ETL). This rep
 
 ## FAQ
 
-### Why PDI is not working?
+### Why is PDI not working?
 
 Many reasons:
 
@@ -38,7 +38,7 @@ Many reasons:
  - PDI is not in the right folder
  - PDI has not been extracted from the zip file.
  
-### How to solve the problem?
+### How to solve the problem
 
 Move PDI to the right location:
 
