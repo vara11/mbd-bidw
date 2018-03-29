@@ -63,15 +63,15 @@ Most of the times, we refer iterative/incremental development as [**Agile Data M
 
 To keep track of incremental changes in the structure of the dimensional model, it is suitable to use a database change management tool. Some of the best known Open Source tools are [Flyway](https://flywaydb.org/), [Liquibase](http://www.liquibase.org/) or [DBDeploy](http://dbdeploy.com/).
 
-## What can I do if I forget my MySQL password?
+### What can I do if I forget my MySQL password?
 
 If you forget your MySQL password or don't know how to change MySQL root password, follow these steps.
 
-### Windows
+#### Windows
 
 Use the installer (that you can find in control panel > uninstall programs) to restore your MySQL installation.
 
-### Mac
+#### Mac
 
 **Option 1**
 
