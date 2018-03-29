@@ -4,6 +4,13 @@
 
 The topic of this session is the components of **Business Intelligence**. This repository includes the content discussed in class.
 
+## Main Concepts
+
+  - Data Warehousing Components
+  - Data Warehouse architecture
+  - Data Warehouse Design methodologies
+  - Business Intelligence Components
+
 ## FAQ
 
 ### Do we have different environments in DW/BI?
