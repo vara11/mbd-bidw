@@ -43,3 +43,9 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 	  - Backend Data Warehouse
 	  - Multiple sources; Full history; Incremental build
 	  - Up-front work; Long-term payoff; Many joins
+
+### Is there a data warehouse lifecycle?
+
+Yes. It comprises many iterative steps.
+
+![](images/data-warehouse-lifecycle.jpg)
