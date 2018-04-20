@@ -48,4 +48,4 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 Yes. It comprises many iterative steps.
 
-![](images/data-warehouse-lifecycle.jpg)
+![Source: WhereScape](images/data-warehouse-lifecycle.jpg)
