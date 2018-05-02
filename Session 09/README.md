@@ -28,7 +28,10 @@ Yes. There are four versions.
   - [Tableau Public](https://public.tableau.com/s/): for developers, free, cloud-based, public data and workbooks
   - [Tableau Server](https://www.tableau.com/products/server/options): for companies, for developers/business analysts, they can share their analysis with the rest of the company
 
+Tableau has a data preparation tool as well: [Tableau Prep](https://www.tableau.com/products/prep).
+
 ## References
 
   - [DAMA International](https://dama.org)
   - [EU General Data Protection Regulation ](https://www.eugdpr.org)
+  - [IEEE Spectrum - Your Guide to the GDPR](https://spectrum.ieee.org/telecom/internet/your-guide-to-the-gdpr)
