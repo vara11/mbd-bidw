@@ -36,7 +36,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 > Note: for Microsoft Windows it is just one installer for MAC, two files.
 
-Remember to start the server to be able to use the database. Open MySQL Workbench and create a new connection using the right user and password and the standard parameters for configuration.ember to start the server to be able to use the database.
+Remember to start the server to be able to use the database. Open MySQL Workbench and create a new connection using the right user and password and the standard parameters for configuration.
 
 **Install PDI**
 
