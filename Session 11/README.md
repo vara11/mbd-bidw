@@ -13,6 +13,7 @@ The topic of this session is **Data Lakes**. This repository includes the extra 
 
   - Dremio [Tutorials & Resources](https://www.dremio.com/tutorials-resources)
   - Dremio [Documentation](https://docs.dremio.com)
+  - [Getting started with kylo](https://calvinhartwell.gitbooks.io/getting-started-with-kylo/)
   
 ## FAQ
 
