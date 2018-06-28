@@ -16,6 +16,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
   - **Data Warehouse**: MySQL (database) and MySQL Workbench (database modeling and SQL development)
   - **ETL**: Pentaho Data Integration (PDI)
   - **Business Intelligence/Data Visualization**: Tableau Desktop
+  - **Self-Service of Data LakeS**: Dremio
 
 ### Steps
 
@@ -72,6 +73,16 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
   - Copy Tableau Desktop License from campus.
   - Install the software following the instructions in the screen.
   - Update your license in the application: Help menu -> Manage Product Keys
+
+**Install Dremio**
+
+We will use the community version of Dremio Server. It can be downloaded from this [link](https://www.dremio.com/download/). Dremio server requires Java to work. Then:
+
+  - Install Dremio using the installer.
+  - Start Dremio:
+      - [Windows]: Start from the Start Menu.
+      - [Mac]: Launch Dremio from Applications. Start Dremio from the Start Menu.
+  - You can now navigate to the Dremio UI at http://localhost:9047.
 
 ## FAQ
 
