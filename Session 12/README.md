@@ -37,6 +37,7 @@ Many options: [Alation](https://alation.com), [Ataccama](https://www.ataccama.co
 ## References
 
   - [DAMA International](https://dama.org)
+  - [DMBOK flashcards](https://quizlet.com/subject/DMBOK/)
   - [EU General Data Protection Regulation ](https://www.eugdpr.org)
   - [IEEE Spectrum - Your Guide to the GDPR](https://spectrum.ieee.org/telecom/internet/your-guide-to-the-gdpr)
   - [My Data Request](https://mydatarequest.com)
