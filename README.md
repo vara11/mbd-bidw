@@ -16,7 +16,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
   - **Data Warehouse**: MySQL (database) and MySQL Workbench (database modeling and SQL development)
   - **ETL**: Pentaho Data Integration (PDI)
   - **Business Intelligence/Data Visualization**: Tableau Desktop
-  - **Self-Service of Data LakeS**: Dremio
+  - **Self-Service of Data Lakes**: Dremio
 
 ### Steps
 
@@ -33,7 +33,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
   - Install all the programs and follow the instructions:
     - [Windows] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember).
     - [Mac] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember). If you forget the password you will be able to change it from system preferences.
-    - PDI and MYSQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
+    - PDI and MySQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
 
 > Note: for Microsoft Windows it is just one installer for MAC, two files.
 
