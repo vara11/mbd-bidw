@@ -2,7 +2,7 @@
 
 ## Session 2
 
-The topic of this session is the components of **Business Intelligence**. This repository includes the content discussed in class.
+The topic of this session is components of **Business Intelligence** and **Data Warehousing**. This repository includes the content discussed in class.
 
 ## Main Concepts
 
@@ -22,13 +22,13 @@ Yes. We can have four environments:
  - **Quality Assurance Environment (QA)**: all developers’ changes are integrated in this environment and the DW/BI system quality controls are performed
  - **Pre-production environment (PRE-PROD)**: is a production-like environment, tests and end-user demonstrations run on this environment
  
- A DW/BI must have, at least, the first two.
+A DW/BI must have, at least, the first two.
  
 ### Is it recommended to use a Control Version System in DW/BI?
  
 Yes. It is recommended to use a version control system (SCM) to version all artifacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
 
-### I'm interested in agile methodologies. Can I use them with github?
+### I'm interested in combining agile methodologies and github. Can I use them with github?
 
 Yes! Check [Zenhub](https://www.zenhub.com).
 
