@@ -33,3 +33,4 @@ The topic of this session is **Reporting**. This repository includes the content
    - [Teaching data visualization: Recommended readings and resources](http://www.mulinblog.com/teaching-data-visualization-recommended-readings-and-resources/)
    - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
    - [from Data to Viz](https://www.data-to-viz.com)
+   - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
