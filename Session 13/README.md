@@ -34,3 +34,4 @@ The topic of this session is **Reporting**. This repository includes the content
    - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
    - [from Data to Viz](https://www.data-to-viz.com)
    - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
+   - [The Chartmaker Directory, a comparison for visual tools and libraries](http://chartmaker.visualisingdata.com)
