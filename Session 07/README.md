@@ -33,10 +33,10 @@ The topic of this session is **Data Integration** (in particular, ETL). This rep
 
 Many reasons:
 
- - Your computer has JRE not JDK
- - Your computer has JDK v8 not v9 or v10
+ - Your computer has JRE not JDK.
+ - Your computer has JDK v9/10 not v8.
  - Your computer has several java virtual machines (7, 8, 9 and/or 10).
- - PDI is not in the right folder
+ - PDI is not in the right folder.
  - PDI has not been extracted from the zip file.
  
 ### How to solve the problem
