@@ -29,10 +29,10 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
   - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.12 and MySQL Workbench 8.0.12). Download the program(s): 
     - [Mac] In this case: MySQL (http://dev.mysql.com/downloads/mysql/) and MySQL Workbench (http://dev.mysql.com/downloads/workbench/)
-    - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Workbench in windows requires [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+    - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Workbench in windows may require [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
   - Install all the programs and follow the instructions:
-    - [Windows] During the installation process you will configure the password for root user (choose pentaho2018 or a password that you will remember).
-    - [Mac] During the installation process you will configure the password for root user (choose pentaho2018 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
+    - [Windows] During the installation process you will configure the password for root user (choose IE2018 or a password that you will remember). Consider a custom installation and choose just the MySQL Server and MySQL Workbench as components to be installed.
+    - [Mac] During the installation process you will configure the password for root user (choose IE2018 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
     - PDI and MySQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
 
 > Note: for Microsoft Windows it is just one installer for MAC, two files.
@@ -47,7 +47,7 @@ We will use the community version of Pentaho Data Integration (a.k.a PDI). It ca
     - [Mac] Move the data-integration folder into Applications folder
     - [Windows] Move the data-integration folder into C:/ folder
   - Open PDI
-    - [Windows] Double-click spoon.bat inside data-integratioon folder
+    - [Windows] Double-click spoon.bat inside data-integration folder
     - [Mac] Open the terminal and execute:
     
 ```
@@ -89,6 +89,7 @@ We will use the community version of Dremio Server. It can be downloaded from th
       - [Windows]: Start from the Start Menu.
       - [Mac]: Launch Dremio from Applications. Start Dremio from the Start Menu.
   - You can now navigate to the Dremio UI at http://localhost:9047.
+  - Download and install Dremio ODBC for your OS from https://docs.dremio.com/drivers/
 
 ## FAQ
 
