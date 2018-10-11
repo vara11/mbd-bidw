@@ -73,6 +73,10 @@ sudo rm -rf jdk*
   - Download Java SE Development Kit 8u181 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
 
+### What can I do to increase the memory limit for PDI?
+
+Follow the instructions in this [article](https://help.pentaho.com/Documentation/8.1/Setup/Configuration/Design_Tools_and_Utilities/Memory_Limit) to increase the memory limit in spoon.bat or spoon.sh.
+
 ### Are there other open source data integration options?
 
 Yes, many and the amount is growing. Some of them:
