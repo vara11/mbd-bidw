@@ -54,6 +54,7 @@ We must uninstall all JRE, JDK from our system and install the right JDK version
   - Download Java SE Development Kit 8u181 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
   - Set Environment Variables:
+    - Open Control Panel. Open User Accounts applet. On the left-hand side of that applet you will see a link that says Change my environment variables. Click that link, and it will take you to the same “Environment Variables” dialog for your user's environment variables.
     - Set the PENTAHO_JAVA_HOME  environment variable. If you do not set these variables, Pentaho will not start correctly. If you are using a JRE, set the JRE_HOME home environment variable as well.
     - Set the path of the PENTAHO_JAVA_HOME variable to the path of your Java installation, like in the following example: SET PENTAHO_JAVA_HOME=C:\Program Files\Java\jdk8
    - Open PDI and verify the variables have been properly set.
