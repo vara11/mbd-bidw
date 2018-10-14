@@ -26,6 +26,16 @@ The topic of this session is the **Data Modelling** (in general). This repositor
 	  - MySQL Workbench
  - All schemas have been created with MySQL Workbench.
  
+## MySQL Workbench Features 
+ 
+| Features | Explanation | Tasks |
+|:------|:------|:------------------------------------------------------------|
+| User administration | Visual utility for managing users | Add new users; remove existing users; grant privileges; drop privileges; view user profiles. |
+| Server configuration | Allows advanced configuration of server and fine tuning for optimal performance | Multiple adjustments (memory, space, indexes,...) |
+| Database backup and restorations | Visual tool for exporting/importing MySQL dump files | Import and export dump files |
+| Server logs | Visual tool for viewing MySQL server logs | Error logs; binary logs; InnodDB logs. |
+| Database modelling | Visual tool for prototyping and designing databases | Create schemas; publish schemas; retrieve previous schemas. |
+  
 ## FAQ
 
 ### Which is the meaning of MySQL Workbench flags? 
