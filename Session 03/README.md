@@ -4,6 +4,7 @@
 
 The topic of this session is the **Data Modelling** (in general). This repository includes the content discussed in class:
 
+  - Articles
   - Concepts
   - Exercises
   - Introduction to MySQL Workbench
@@ -51,3 +52,7 @@ More information here: https://dev.mysql.com/doc/workbench/en/wb-table-editor-co
   - [SQL Fundamentals (DDL & DML)](https://www.thoughtco.com/sql-fundamentals-1019780)
   - [Glossary of Terms](https://www.thoughtco.com/databases-glossary-1019603)
   - [About referential integrity](https://www.thoughtco.com/referential-integrity-definition-1019181)
+  - [IDEF1X](http://www.idef.com/idef1x-data-modeling-method/)
+  - [The Object-Oriented Database System Manifesto](https://www.cs.cmu.edu/~clamen/OODBMS/Manifesto/) by M. Atkinson, F. Bancilhon, D. DeWitt, K. Dittrich, D. Maier, and S. Zdonik.
+  - [The Third-Generation Database System Manifesto](https://dl.acm.org/citation.cfm?id=390001) by Michael Stonebraker, Lawrence A. Rowe, Bruce G. Lindsay, James Gray, Michael Carey, Michael Brodie, Philip Bernstein, and David Beech.
+  - [The Third Manifesto](http://www.thethirdmanifesto.com) (TTM), by Hugh Darwen and C.J. Date
