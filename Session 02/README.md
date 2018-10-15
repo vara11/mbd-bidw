@@ -44,7 +44,7 @@ In short, **NO**. You can read an interesting discussion about Pros and Cons [he
 
 Yes. Check [TCP](http://www.tpc.org/default.asp), a non-profit corporation founded to define transaction processing and database benchmarks and to disseminate objective, verifiable TPC performance data to the industry.
 
-### Should Your Data Warehouse Have an SLA?
+### Should Your Data Warehouse Have an SLA (Service Level Agreement)?
 
 Yes. Interesting explanation here: [part 1](https://www.locallyoptimistic.com/post/data-warehouse-sla-p1/) and [part 2](https://www.locallyoptimistic.com/post/data-warehouse-sla-p2/).
 
