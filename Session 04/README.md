@@ -68,13 +68,52 @@ If you forget your MySQL password or don't know how to change MySQL root passwor
 
 #### Windows
 
-Use the installer (that you can find in control panel > uninstall programs) to restore your MySQL installation.
+Use the installer (that you can find in control panel > uninstall programs) to restore your MySQL installation. If this process is not working then follow these steps.
+
+1) Run Command Prompt (Type cmd into the search menu in Windows 8/10) and run it as Administrator and execute the following commands to stop and remove MySQL service.
+
+```
+Net stop MySQL
+SC delete MySQL
+```
+
+The service should now be gone.
+
+2) Go to Control Panel > Programs > Programs and Features, select MySQL Server and click Uninstall.
+
+3) Open Windows Explorer and go to Organize > Folder and search options, Select the “View” tab and under “Hidden files and Folders” choose “Show hidden files and folders”. Now explore the following locations and delete following folders.
+
+> Note: You will need enable “Hidden items” in file manager in order to get to the program data files.
+
+C:\Program Files\MySQL
+C:\Program Files (x86)\MySQL
+C:\ProgramData\MySQL
+
+And if exists, delete it too:
+
+C:\Users\[User-Name]\AppData\Roaming\MySQL
+
+Its also probably worth scanning and fixing the registry for anything that’s been left behind using a program to repair your registry and clear out any old files. The registry entries are:
+
+HKEY_CURRENT_USER\Software\MySQL AB
+HKEY_LOCAL_MACHINE\SOFTWARE\MySQL AB
+
+If multiple users sign on to your machine, you will also have to look under each user:
+
+HKEY_USERS\*\Software\MySQL AB 
 
 #### Mac
 
 **Option 1**
 
-Open terminal and follow these steps
+Open System Preferences > Initializa Database, then
+
+ - Enter new password
+ - Choose "Use Legacy Password Encription"
+
+**Option 2**
+
+If option 1 is not working, open terminal and follow these steps
 
  - Stop MySQL:
 
@@ -100,11 +139,11 @@ UPDATE USER SET AUTHENTICATION_STRING=password('NewPassword') WHERE user='root'
 FLUSH PRIVILEGES
 ``` 
 
-**Option 2**
-
-In this link you will find the steps (for every OS): http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html. 
-
 **Option 3**
+
+If option 2 is not working, in this link you will find the steps (for every OS): http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html. 
+
+**Option 4**
 
 Last but not least. If the previous options are not working, you can uninstall MySQL and completely remove it from your Mac:
 
