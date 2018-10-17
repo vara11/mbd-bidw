@@ -103,4 +103,4 @@ Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/M
 
 ### How can I have this repository?
 
-Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com).
+Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com). Are you interested in how Github works? Start [here](https://guides.github.com/activities/hello-world/).
