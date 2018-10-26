@@ -17,12 +17,12 @@ The topic of this session is components of **Business Intelligence** and **Data 
 
 Yes. We can have four environments:
 
- - **Production Environment (PROD)**: DW/BI system production-ready
  - **Developer Environment (Developer Sandbox)**: DW/BI system’s development environment
  - **Quality Assurance Environment (QA)**: all developers’ changes are integrated in this environment and the DW/BI system quality controls are performed
  - **Pre-production environment (PRE-PROD)**: is a production-like environment, tests and end-user demonstrations run on this environment
+ - **Production Environment (PROD)**: DW/BI system production-ready
  
-A DW/BI must have, at least, the first two.
+A DW/BI must have, at least, the developer and production environments.
  
 ### Is it recommended to use a Control Version System in DW/BI?
  
@@ -50,6 +50,6 @@ Yes. Interesting explanation here: [part 1](https://www.locallyoptimistic.com/po
 
 ### I need a BI (Business Intelligence) platform. Which options do I have?
 
- - Open source: [SpagoBI](http://www.spagobi.org), [SealReport](http://www.sealreport.org) among many others.
- - Open source/Commercial: [Hitachi Ventara (formely Pentaho](https://www.hitachivantara.com), [Tibco Jaspersoft](https://www.jaspersoft.com), [ReportServer](https://reportserver.net), [LinceBI](http://www.lincebi.com) among many others.
- - Proprietary: [Microstrategy](https://www.microstrategy.com), [IBM](https://www.ibm.com/analytics/business-intelligence), [Oracle](https://www.oracle.com/solutions/business-analytics/business-intelligence/index.html), [SAP](https://www.sap.com/products/analytics/business-intelligence-bi.html), [Tableau](https://www.tableau.com), [Qlik](https://www.qlik.com/us/), [Microsoft](https://www.microsoft.com/en-us/sql-server/business-intelligence), [Gooddata](https://www.gooddata.com), [Birst](http://www.birst.com), [SiSense](https://www.sisense.com), [Information Builders](https://www.informationbuilders.com), [Domo](http://domo.com), [Open Text](https://www.opentext.com/what-we-do/products/analytics), [Grow](https://www.grow.com) among many others.
+ - **Open Source**: [SpagoBI](http://www.spagobi.org), [SealReport](http://www.sealreport.org), [BIRT](http://www.eclipse.org/birt/) among many others.
+ - **Open Source/Commercial**: [Hitachi Ventara (formely Pentaho)](https://www.hitachivantara.com), [Tibco Jaspersoft](https://www.jaspersoft.com), [ReportServer](https://reportserver.net), [LinceBI](http://www.lincebi.com), [Jedox](https://www.jedox.com) among many others.
+ - **Proprietary**: [Microstrategy](https://www.microstrategy.com), [IBM](https://www.ibm.com/analytics/business-intelligence), [Oracle](https://www.oracle.com/solutions/business-analytics/business-intelligence/index.html), [SAP](https://www.sap.com/products/analytics/business-intelligence-bi.html), [Tableau](https://www.tableau.com), [Qlik](https://www.qlik.com), [Microsoft](https://www.microsoft.com/en-us/sql-server/business-intelligence), [Gooddata](https://www.gooddata.com), [Birst](http://www.birst.com), [SiSense](https://www.sisense.com), [Information Builders](https://www.informationbuilders.com), [Domo](http://domo.com), [Open Text](https://www.opentext.com/what-we-do/products/analytics), [Grow](https://www.grow.com), [Amazon QuickSight](https://aws.amazon.com/quicksight/), [Yellowfin](https://www.yellowfinbi.com) among many others.
