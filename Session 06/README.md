@@ -15,3 +15,7 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 You can generate random data to start working. For example, you can use [Mockaroo](https://www.mockaroo.com/) or [GenerateData](http://generatedata.com).
 
 Another option is to generate synthetic data. There are many differen approaches that can be categorized into three main groups: **synthetic reconstruction**, **combinatorial optimization**, and **model-based generation**.
+
+### 10 essential rules of dimensional modeling
+
+If using multidimensional architecture, check this [article](https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/).
