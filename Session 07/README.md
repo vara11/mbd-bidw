@@ -37,9 +37,11 @@ Many reasons:
  - Your computer has JDK v9/10/11 not v8.
  - Your computer has several java virtual machines (7, 8, 9, 10 and/or 11).
  - PDI is not in the right folder.
- - PDI has not been extracted from the zip file.
+ - PDI has not been extracted from the zip file. Or the extraction process is corrupted (this is quite common in [Windows]).
  
 ### How to solve the problem
+
+[Windows] Unzip PDI one more time.
 
 Move PDI to the right location:
 
@@ -73,6 +75,12 @@ sudo rm -rf jdk*
 
   - Download Java SE Development Kit 8u181 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
+
+[Windows] If PDI is able to find java but it is still refusing to open, then open CMD prompt inside the data integration folder and execute the following instruction:
+
+``` 
+java -jar launcher\launcher.jar -lib ..\libswt\win64
+``` 
 
 ### What can I do to increase the memory limit for PDI?
 
