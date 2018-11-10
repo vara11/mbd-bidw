@@ -12,6 +12,8 @@ The topic of this session is **Data Governance**. This repository includes the e
   - Data Governance Tasks
   - Data Governance Functions
   - Data Governance Roles
+  
+![Source: DAMA. DMBOK Functional Framework](images/dmbok.png)
 
 ## FAQ
 
