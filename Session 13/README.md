@@ -36,3 +36,4 @@ The topic of this session is **Reporting**. This repository includes the content
    - [from Data to Viz](https://www.data-to-viz.com)
    - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
    - [The Chartmaker Directory, a comparison for visual tools and libraries](http://chartmaker.visualisingdata.com)
+   - [Financial Times | Graphics](https://www.ft.com/graphics)
