@@ -2,22 +2,22 @@
 <transformation>
   <info>
     <name>TR_FACT</name>
-    <description/>
-    <extended_description/>
-    <trans_version/>
+    <description />
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
-    <directory>&#x2f;</directory>
+    <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -42,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -126,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -208,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -274,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -350,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -402,9 +402,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -415,7 +415,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -428,13 +428,38 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2017&#x2f;02&#x2f;06 17&#x3a;16&#x3a;05.097</created_date>
+    <created_date>2017/02/06 17:16:05.097</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2017&#x2f;02&#x2f;06 17&#x3a;16&#x3a;05.097</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <modified_date>2017/02/06 17:16:05.097</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
+    <notepad>
+      <note>This transformation loads the fact table. 
+
+- First, it looks up for the foreign keys.
+- Then completes values.
+- Finally it inserts/updates the data in the fact table.</note>
+      <xloc>48</xloc>
+      <yloc>32</yloc>
+      <width>324</width>
+      <heigth>90</heigth>
+      <fontname>.AppleSystemUIFont</fontname>
+      <fontsize>13</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
   <connection>
     <name>localhost</name>
@@ -445,20 +470,50 @@
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>Y</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
     </attributes>
   </connection>
   <order>
@@ -499,18 +554,18 @@
     </hop>
     <hop>
       <from>Lookup dim_protocol</from>
-      <to>Add constants&#x3a; number_view</to>
+      <to>Add constants: number_view</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Add constants&#x3a; number_view</from>
+      <from>Add constants: number_view</from>
       <to>Select values</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Select values</from>
-      <to>Insert &#x2f; Update</to>
-      <enabled>N</enabled>
+      <to>Insert / Update</to>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>CSV file input</from>
@@ -519,31 +574,31 @@
     </hop>
   </order>
   <step>
-    <name>Add constants&#x3a; number_view</name>
+    <name>Add constants: number_view</name>
     <type>Constant</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>number_view</name>
         <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <nullif>1</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -552,41 +607,40 @@
     </remotesteps>
     <GUI>
       <xloc>544</xloc>
-      <yloc>256</yloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>CSV file input</name>
     <type>CsvInput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <filename>&#x24;&#x7b;Internal.Entry.Current.Directory&#x7d;&#x2f;data_output&#x2f;cleanlog.csv</filename>
-    <filename_field/>
-    <rownum_field/>
+    <filename>${Internal.Entry.Current.Directory}/data_output/cleanlog.csv</filename>
+    <filename_field />
+    <rownum_field />
     <include_filename>N</include_filename>
-    <separator>&#x3b;</separator>
-    <enclosure>&#x22;</enclosure>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
     <header>Y</header>
     <buffer_size>50000</buffer_size>
     <lazy_conversion>Y</lazy_conversion>
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding/>
+    <encoding />
     <fields>
       <field>
         <name>ip</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>,</decimal>
         <group>.</group>
         <length>15</length>
@@ -596,8 +650,8 @@
       <field>
         <name>full_request_date</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>26</length>
@@ -607,8 +661,8 @@
       <field>
         <name>day</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -618,8 +672,8 @@
       <field>
         <name>month</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>3</length>
@@ -629,8 +683,8 @@
       <field>
         <name>year</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -640,8 +694,8 @@
       <field>
         <name>hour</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -651,8 +705,8 @@
       <field>
         <name>minute</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -662,8 +716,8 @@
       <field>
         <name>second</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -673,8 +727,8 @@
       <field>
         <name>tz</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>5</length>
@@ -684,8 +738,8 @@
       <field>
         <name>http_verb</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>4</length>
@@ -695,8 +749,8 @@
       <field>
         <name>URI</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>525</length>
@@ -706,8 +760,8 @@
       <field>
         <name>http_status_code</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -717,8 +771,8 @@
       <field>
         <name>bytes</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -728,8 +782,8 @@
       <field>
         <name>referrer</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>422</length>
@@ -739,8 +793,8 @@
       <field>
         <name>user_agent</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>194</length>
@@ -750,8 +804,8 @@
       <field>
         <name>browser_name</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>13</length>
@@ -761,8 +815,8 @@
       <field>
         <name>browser_version</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -772,8 +826,8 @@
       <field>
         <name>browser_major</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -783,8 +837,8 @@
       <field>
         <name>device_type</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -794,8 +848,8 @@
       <field>
         <name>device_model</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -805,8 +859,8 @@
       <field>
         <name>device_vendor</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -816,8 +870,8 @@
       <field>
         <name>engine_name</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -827,8 +881,8 @@
       <field>
         <name>engine_version</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -838,8 +892,8 @@
       <field>
         <name>os_name</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -849,8 +903,8 @@
       <field>
         <name>os_version</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>19</length>
@@ -860,8 +914,8 @@
       <field>
         <name>cpu_architecture</name>
         <type>String</type>
-        <format/>
-        <currency/>
+        <format />
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -871,8 +925,8 @@
       <field>
         <name>day_of_week</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -882,8 +936,8 @@
       <field>
         <name>week_of_year</name>
         <type>Integer</type>
-        <format> &#x23;</format>
-        <currency/>
+        <format> #</format>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -893,8 +947,8 @@
       <field>
         <name>day_of_week_desc</name>
         <type>String</type>
-        <format/>
-        <currency>&#xa3;</currency>
+        <format />
+        <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -902,7 +956,7 @@
         <trim_type>both</trim_type>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -911,75 +965,74 @@
     </remotesteps>
     <GUI>
       <xloc>48</xloc>
-      <yloc>32</yloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
-    <name>Insert &#x2f; Update</name>
+    <name>Insert / Update</name>
     <type>InsertUpdate</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>localhost</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema/>
+      <schema />
       <table>h_clicks</table>
       <key>
         <name>id_resource</name>
         <field>id_resource</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_browser</name>
         <field>id_browser</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_os</name>
         <field>id_os</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_date</name>
         <field>id_date</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_ip</name>
         <field>id_ip</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_referer</name>
         <field>id_referer</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_server_status</name>
         <field>id_server_status</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <key>
         <name>id_protocol</name>
         <field>id_protocol</field>
-        <condition>&#x3d;</condition>
-        <name2/>
+        <condition>=</condition>
+        <name2 />
       </key>
       <value>
         <name>id_resource</name>
@@ -1032,7 +1085,7 @@
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1041,53 +1094,52 @@
     </remotesteps>
     <GUI>
       <xloc>160</xloc>
-      <yloc>256</yloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_browser</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_browser</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>browser_major</name>
-          <lookup>browser_major</lookup>
-        </key>
-        <key>
-          <name>browser_name</name>
-          <lookup>browser_name</lookup>
-        </key>
-        <key>
-          <name>browser_version</name>
-          <lookup>browser_version</lookup>
-        </key>
-        <return>
-          <name>id_browser</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_browser</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>browser_major</name>
+        <lookup>browser_major</lookup>
+      </key>
+      <key>
+        <name>browser_name</name>
+        <lookup>browser_name</lookup>
+      </key>
+      <key>
+        <name>browser_version</name>
+        <lookup>browser_version</lookup>
+      </key>
+      <return>
+        <name>id_browser</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1095,46 +1147,45 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>384</xloc>
-      <yloc>80</yloc>
+      <xloc>368</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_date</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_date</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>full_request_date</name>
-          <lookup>date</lookup>
-        </key>
-        <return>
-          <name>id_date</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_date</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>full_request_date</name>
+        <lookup>date</lookup>
+      </key>
+      <return>
+        <name>id_date</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1142,46 +1193,45 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>608</xloc>
-      <yloc>32</yloc>
+      <xloc>656</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_ip</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_ip</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>ip</name>
-          <lookup>ip</lookup>
-        </key>
-        <return>
-          <name>id_ip</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_ip</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>ip</name>
+        <lookup>ip</lookup>
+      </key>
+      <return>
+        <name>id_ip</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1189,54 +1239,53 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>736</xloc>
-      <yloc>32</yloc>
+      <xloc>800</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_os</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_os</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>os_name</name>
-          <lookup>os_name</lookup>
-        </key>
-        <key>
-          <name>os_version</name>
-          <lookup>os_version</lookup>
-        </key>
-        <key>
-          <name>cpu_architecture</name>
-          <lookup>cpu_architecture</lookup>
-        </key>
-        <return>
-          <name>id_os</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_os</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>os_name</name>
+        <lookup>os_name</lookup>
+      </key>
+      <key>
+        <name>os_version</name>
+        <lookup>os_version</lookup>
+      </key>
+      <key>
+        <name>cpu_architecture</name>
+        <lookup>cpu_architecture</lookup>
+      </key>
+      <return>
+        <name>id_os</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1244,46 +1293,45 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>480</xloc>
-      <yloc>32</yloc>
+      <xloc>512</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_protocol</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_protocol</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>http_verb</name>
-          <lookup>verb</lookup>
-        </key>
-        <return>
-          <name>id_protocol</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_protocol</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>http_verb</name>
+        <lookup>verb</lookup>
+      </key>
+      <return>
+        <name>id_protocol</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1292,45 +1340,44 @@
     </remotesteps>
     <GUI>
       <xloc>704</xloc>
-      <yloc>256</yloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_referer</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_referer</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>referrer</name>
-          <lookup>referer</lookup>
-        </key>
-        <return>
-          <name>id_referer</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_referer</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>referrer</name>
+        <lookup>referer</lookup>
+      </key>
+      <return>
+        <name>id_referer</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1338,46 +1385,45 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>32</yloc>
+      <xloc>928</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_resource</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_resource</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>URI</name>
-          <lookup>resource</lookup>
-        </key>
-        <return>
-          <name>id_resource</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_resource</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>URI</name>
+        <lookup>resource</lookup>
+      </key>
+      <return>
+        <name>id_resource</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1385,46 +1431,45 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>272</xloc>
-      <yloc>32</yloc>
+      <xloc>208</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Lookup dim_server_status</name>
     <type>CombinationLookup</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-      <schema/>
-      <table>d_server_status</table>
-      <connection>localhost</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>Y</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>http_status_code</name>
-          <lookup>value</lookup>
-        </key>
-        <return>
-          <name>id_server_status</name>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-    <cluster_schema/>
+    <schema />
+    <table>d_server_status</table>
+    <connection>localhost</connection>
+    <commit>100</commit>
+    <cache_size>9999</cache_size>
+    <replace>Y</replace>
+    <preloadCache>N</preloadCache>
+    <crc>N</crc>
+    <crcfield>hashcode</crcfield>
+    <fields>
+      <key>
+        <name>http_status_code</name>
+        <lookup>value</lookup>
+      </key>
+      <return>
+        <name>id_server_status</name>
+        <creation_method>tablemax</creation_method>
+        <use_autoinc>N</use_autoinc>
+      </return>
+    </fields>
+    <sequence />
+    <last_update_field />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1432,35 +1477,56 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>256</yloc>
+      <xloc>928</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <fields>      <field>        <name>id_resource</name>
-      </field>      <field>        <name>id_browser</name>
-      </field>      <field>        <name>id_os</name>
-      </field>      <field>        <name>id_date</name>
-      </field>      <field>        <name>id_ip</name>
-      </field>      <field>        <name>id_referer</name>
-      </field>      <field>        <name>id_server_status</name>
-      </field>      <field>        <name>id_protocol</name>
-      </field>      <field>        <name>bytes</name>
-      </field>      <field>        <name>number_view</name>
-      </field>        <select_unspecified>N</select_unspecified>
-    </fields>    <cluster_schema/>
+    <fields>
+      <field>
+        <name>id_resource</name>
+      </field>
+      <field>
+        <name>id_browser</name>
+      </field>
+      <field>
+        <name>id_os</name>
+      </field>
+      <field>
+        <name>id_date</name>
+      </field>
+      <field>
+        <name>id_ip</name>
+      </field>
+      <field>
+        <name>id_referer</name>
+      </field>
+      <field>
+        <name>id_server_status</name>
+      </field>
+      <field>
+        <name>id_protocol</name>
+      </field>
+      <field>
+        <name>bytes</name>
+      </field>
+      <field>
+        <name>number_view</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1469,11 +1535,10 @@
     </remotesteps>
     <GUI>
       <xloc>352</xloc>
-      <yloc>256</yloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
-    </step>
-
+  </step>
   <step_error_handling>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
