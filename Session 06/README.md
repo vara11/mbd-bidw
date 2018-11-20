@@ -10,6 +10,10 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 ## FAQ
 
+### Is it possible to consider automated testing in a data warehouse?
+
+Yes. Read this interesting [article](https://medium.com/@josh.temple/automated-testing-in-the-modern-data-warehouse-d5a251a866af) about the topic. A potential tool to use is [dbt](https://www.getdbt.com). 
+
 ### What can I do if I don't have access to the data yet?
 
 You can generate random data to start working. For example, you can use [Mockaroo](https://www.mockaroo.com/) or [GenerateData](http://generatedata.com).
