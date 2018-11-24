@@ -22,7 +22,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install Java**
 
-  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html (in our case: Java SE 8u171/8u172/8u181)
+  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html (in our case: Java SE 8u192)
   - Install and follow the instructions
   - Optional: instead of using Oracle Java SDK, you can use [OpenJDK](https://openjdk.java.net/). Only use one SKD version.
 
