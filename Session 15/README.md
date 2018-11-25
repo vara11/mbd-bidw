@@ -2,45 +2,45 @@
 
 ## Session 15
 
-The topic of this session is **Data Visualization and Data Storytelling**. This repository includes the content discussed in class:
+The topic of this session is **Data Governance**. This repository includes the extra content discussed in class:
 
-  - Exercises
-  - Examples
-  - FAQ
+  - Articles
 
-## Main Concepts
+## Main concepts
 
-  - What is data visualization
-  - What is data storytelling
-  - How to create a data story (with Tableau)
+  - What is Data Governance
+  - Data Governance Tasks
+  - Data Governance Functions
+  - Data Governance Roles
   
-## How to use this content
+![Source: DAMA. DMBOK Functional Framework](images/dmbok.png)
 
-  - Download the folders
-  - Required Software:
-	  - MySQL
-	  - Tableau
-  - All analysis files have been created with Tableau.
-  
 ## FAQ
- 
-### How to improve Tableau performance
- 
-Tableau is an in-memory tool. When working with this tool we need to consider some details to improve its performance. Review the following article for more information: https://www.tableau.com/about/blog/2016/1/5-tips-make-your-dashboards-more-performant-48574
 
-### How to choose a color scale
- 
-We can use a color picker. There are many:
+### What if the latest version of Tableau is not working for my OS?
 
-  - [Data Color Picker](https://learnui.design/tools/data-color-picker.html)
-  - [Viz Palette](http://projects.susielu.com/viz-palette)
-  - [Necessites posar colors?](https://www.lorem.cat/colors.html) - in catalan, interesting as you can extract colors from images -
+Check the compatibility and download a previous release compatible with your OS from this [website](https://www.tableau.com/support/releases).
+
+### Is there more than one version of Tableau?
+
+Yes. There are four versions.
+
+  - [Tableau Reader](https://www.tableau.com/products/reader): free, only for consumption, for business stakeholders
+  - [Tableau Desktop](https://www.tableau.com/products/trial): 14-days trial, based on license, for developers/business analysts
+  - [Tableau Public](https://public.tableau.com/s/): for developers, free, cloud-based, public data and workbooks
+  - [Tableau Server](https://www.tableau.com/products/server/options): for companies, for developers/business analysts, they can share their analysis with the rest of the company
+
+Tableau has a data preparation tool as well: [Tableau Prep](https://www.tableau.com/products/prep).
+
+### I need a DG (Data Governance) platform. Which options do I have?
+
+Many options: [Alation](https://alation.com), [Ataccama](https://www.ataccama.com), [Collibra](https://www.collibra.com), [Informatica](https://www.informatica.com), [Information Builders](https://www.informationbuilders.com), [Okera](https://www.okera.com), [Orchestra Networks](http://www.orchestranetworks.com), [Reltio](http://www.reltio.com), [Talend](https://www.talend.com/solutions/information-technology/data-governance-mdm/), [Tamr](https://www.tamr.com), [Waterline Data](https://www.waterlinedata.com) among many others.
 
 ## References
 
-  - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
-  - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
-  - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
-  - [IDEA: An ongoing series of nonverbal algorithm assembly instructions](https://idea-instructions.com)
-  - [Data Visualization Checklist](https://datavizchecklist.stephanieevergreen.com)
-  - [morph](https://morph.graphics/)
+  - [DAMA International](https://dama.org)
+  - [DMBOK flashcards](https://quizlet.com/subject/DMBOK/)
+  - [EU General Data Protection Regulation ](https://www.eugdpr.org)
+  - [IEEE Spectrum - Your Guide to the GDPR](https://spectrum.ieee.org/telecom/internet/your-guide-to-the-gdpr)
+  - [My Data Request](https://mydatarequest.com)
+  - [ODI - Data Ethics Canvas](https://theodi.org/article/data-ethics-canvas/)
