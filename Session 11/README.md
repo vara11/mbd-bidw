@@ -8,6 +8,7 @@ The topic of this session is **Data Lakes**. This repository includes the extra 
 
   - Practice: working with a data lake
   - Tool: Dremio
+  - [Optional, MAC]: Install some data stores using [homebrew](https://brew.sh). 
 
 ## References
 
