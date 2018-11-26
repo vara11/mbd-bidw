@@ -26,7 +26,17 @@ The topic of this session is **Reporting**. This repository includes the content
 	  - MySQL
   - All analysis files have been created with Tableau.
   
-  ## References
+## FAQ
+  
+### I need a Dashboard/Visualization Tool. Which options do I have?
+
+Many options: [Silota](http://www.silota.com), [Metabase](https://www.metabase.com), [Qlik](https://www.qlik.com), [Microsoft Power BI](https://powerbi.microsoft.com/en-us/), [Yellowfin BI](https://www.yellowfinbi.com), [Redash](https://redash.io), [Mode Analytics](https://modeanalytics.com), [Meteorite](https://www.meteorite.bi), [Holistics](https://www.holistics.io), [datapine](https://www.datapine.com), [Domo](https://www.domo.com), [Periscope Data](https://www.periscopedata.com), [Looked](https://looker.com), [AWS Quicksight](https://aws.amazon.com/quicksight/) among many others.
+
+### What if... I want to use only open source components?
+
+Check [Meltano](https://gitlab.com/meltano/meltano#meltano-model)
+  
+## References
   
    - [Data + Design](https://infoactive.co/data-design/titlepage01.html)
    - [Visualizing Data](http://www.visualisingdata.com/resources/)
