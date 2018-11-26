@@ -97,8 +97,10 @@ Yes, many and the amount is growing. Some of them:
  - [Pentaho Data Integration](https://sourceforge.net/projects/pentaho/files/): an open source java ETL tool that supports multiple data integration steps. 
  - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/): products provide tools to integrate, cleanse, mask and profile data. Talend has a GUI that enables managing a large number of source systems using standard connectors.
  - [Singer](https://www.singer.io): is an open-source standard for writing scripts that move data.
+ - [Luigi from Spotify](https://github.com/spotify/luigi): a Python module that helps you build complex pipelines of batch jobs.
+ - [embulk](http://www.embulk.org/docs/): a open-source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
  
-And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) [Segment](https://segment.com), [etleap](https://etleap.com), [CloverETL](http://www.cloveretl.com), [Data Duck ETL](http://dataducketl.com), [Celigo Integrator](https://www.celigo.com/ipaas-integration-platform/) or [Matillion](https://www.matillion.com) among many others. 
+And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) [Segment](https://segment.com), [etleap](https://etleap.com), [CloverETL](http://www.cloveretl.com), [Data Duck ETL](http://dataducketl.com), [Celigo Integrator](https://www.celigo.com/ipaas-integration-platform/) or [Matillion](https://www.matillion.com), [ICEDQ](https://icedq.com), [Melt](http://www.jumpmind.com/products/metl/overview) among many others. 
 
 ## References
 
