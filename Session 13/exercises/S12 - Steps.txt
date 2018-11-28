@@ -1,6 +1,6 @@
 Steps
 
-1. Open S11-Ex1.tde
+1. Open S12-Ex1.tde
 2. Review the attributes and become familiar with the content (check readme.html file)
 3. Try to create the following analysis:
 	Taxi In vs. Taxi Out per Carrier
