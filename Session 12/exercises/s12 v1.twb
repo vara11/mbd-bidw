@@ -1,13 +1,16 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 10500.18.0210.2209                               -->
-<workbook original-version='10.5' source-build='10.5.1 (10500.18.0210.2209)' source-platform='mac' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<!-- build 20183.18.1018.1932                               -->
+<workbook original-version='10.5' source-build='2018.3.0 (20183.18.1018.1932)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='auto_mpg' inline='true' name='federated.1k8hdhv1qzyia918r1z0k0htrupe' version='10.5'>
+    <datasource caption='auto_mpg' inline='true' name='federated.1k8hdhv1qzyia918r1z0k0htrupe' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='auto_mpg' name='textscan.0xre74o1vv2l0x160irs112v90ug'>
@@ -152,11 +155,14 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column caption='Year' datatype='string' datatype-customized='true' default-role='measure' default-type='quantitative' name='[Calculation_3815745188173832192]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='STR([model_year] + 1900)' />
+      <column caption='Year' datatype='integer' datatype-customized='true' name='[Calculation_3815745188173832192]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='YEAR(DATE(DATEPARSE ( &quot;yyyy&quot;, STR([model_year] + 1900) )))' />
       </column>
-      <column caption='Country of Origin' datatype='string' name='[Calculation_3815745188174643201]' role='dimension' type='nominal'>
+      <column caption='Region' datatype='string' name='[Calculation_3815745188174643201]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='IF [origin]=1&#10;THEN &apos;US&apos;&#10;ELSEIF  [origin]=2&#10;THEN &apos;Europe&apos;&#10;ELSE &apos;Japan&apos;&#10;END' />
+      </column>
+      <column caption='Car Model' datatype='string' name='[Calculation_4532873093196525568]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='RIGHT([car_name],LEN([car_name])- FINDNTH([car_name],&quot; &quot;,1))' />
       </column>
       <column caption='Car Brand' datatype='string' name='[Calculation_570409082294542336]' role='dimension' type='nominal'>
         <calculation class='tableau' formula='if ([car_name - Split 1]=&apos;toyouta&apos;) THEN&#10;&apos;toyota&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;mercedes-benz&apos;) THEN&#10;&apos;mercedes benz&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;maxda&apos;) THEN&#10;&apos;mazda&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevy&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;chevroelt&apos;) THEN&#10;&apos;chevrolet&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vw&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;vokswagen&apos;) THEN&#10;&apos;volkswagen&apos;&#10;ELSEIF ([car_name - Split 1]=&apos;capri&apos;) THEN&#10;&apos;mercury&apos;&#10;ELSE [car_name - Split 1]&#10;END' />
@@ -171,13 +177,13 @@
       <column caption='Brand' datatype='string' hidden='true' name='[car_name - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1k8hdhv1qzyia918r1z0k0htrupe].[car_name]'>
         <calculation class='tableau' formula='TRIM( SPLIT( [car_name], &quot; &quot;, 1 ) )' />
       </column>
-      <column caption='Car Name' datatype='string' name='[car_name]' role='dimension' type='nominal' />
+      <column caption='Car Name' datatype='string' hidden='true' name='[car_name]' role='dimension' type='nominal' />
       <column caption='Cylinders' datatype='integer' name='[cylinders]' role='measure' type='quantitative' />
       <column caption='Displacement' datatype='real' name='[displacement]' role='measure' type='quantitative' />
       <column caption='Horsepower' datatype='integer' name='[horsepower]' role='measure' type='quantitative' />
-      <column caption='Model Year' datatype='integer' name='[model_year]' role='dimension' type='quantitative' />
+      <column caption='Model Year' datatype='integer' hidden='true' name='[model_year]' role='dimension' type='quantitative' />
       <column caption='Mpg' datatype='real' name='[mpg]' role='measure' type='quantitative' />
-      <column caption='Origin' datatype='integer' name='[origin]' role='measure' type='quantitative' />
+      <column caption='Origin' datatype='integer' hidden='true' name='[origin]' role='measure' type='quantitative' />
       <column caption='Weight' datatype='real' name='[weight]' role='measure' type='quantitative' />
       <column-instance column='[acceleration]' derivation='Avg' name='[avg:acceleration:qk]' pivot='key' type='quantitative' />
       <column-instance column='[mpg]' derivation='Avg' name='[avg:mpg:qk]' pivot='key' type='quantitative' />
@@ -400,14 +406,11 @@
         <field-sort-custom-order field='horsepower' />
         <field-sort-custom-order field='weight' />
         <field-sort-custom-order field='acceleration' />
-        <field-sort-custom-order field='model_year' />
         <field-sort-custom-order field='Calculation_3815745188173832192' />
-        <field-sort-custom-order field='origin' />
         <field-sort-custom-order field='Calculation_3815745188174643201' />
         <field-sort-custom-order field='car_name' />
-        <field-sort-custom-order field='car_name - Split 1' />
+        <field-sort-custom-order field='Calculation_4532873093196525568' />
         <field-sort-custom-order field='Calculation_570409082294542336' />
-        <field-sort-custom-order field='Cylinders (bin)' />
       </field-sort-info>
     </datasource>
   </datasources>
@@ -459,6 +462,7 @@
           </color-one-way>
         </highlight>
       </viewpoint>
+      <simple-id uuid='{EB800840-631E-458F-95FB-2E3E9BC19026}' />
     </window>
   </windows>
   <thumbnails>
