@@ -2,7 +2,7 @@
 
 ## Session 12
 
-The topic of this session is **Reporting**. This repository includes the content discussed in class:
+The topic of this session is **Reporting** and **OLAP**. This repository includes the content discussed in class:
 
   - Tableau files
   - Videos
@@ -14,9 +14,10 @@ The topic of this session is **Reporting**. This repository includes the content
   
 ## Main Concepts
 
-  - What is report, reporting and reporting platform
+  - What is a report, reporting and a reporting platform
   - Elements of a report
   - Types of charts
+  - What is OLAP and types of OLAP
   
 ## How to use this content
 
