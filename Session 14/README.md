@@ -38,6 +38,7 @@ We can use a color picker. There are many:
 
 ## References
 
+  - [Tableau Tutorials - Step by Step](https://www.tutorialgateway.org/tableau/)
   - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
   - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
   - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
