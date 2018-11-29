@@ -10,6 +10,10 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 ## FAQ
 
+### Is is important DW/ETL Testing?
+
+Yes. Read this article about this [topic](https://www.guru99.com/utlimate-guide-etl-datawarehouse-testing.html).
+
 ### Is it possible to consider automated testing in a data warehouse?
 
 Yes. Read this interesting [article](https://medium.com/@josh.temple/automated-testing-in-the-modern-data-warehouse-d5a251a866af) about the topic. A potential tool to use is [dbt](https://www.getdbt.com). 
