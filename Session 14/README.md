@@ -45,3 +45,10 @@ We can use a color picker. There are many:
   - [IDEA: An ongoing series of nonverbal algorithm assembly instructions](https://idea-instructions.com)
   - [Data Visualization Checklist](https://datavizchecklist.stephanieevergreen.com)
   - [morph](https://morph.graphics/)
+  - Pack Publishing:
+  	- [Learning Tableau 10](https://github.com/PacktPublishing/Learning-Tableau-10)
+	- [Tableau Creating Interactive Data Visualizations](https://github.com/PacktPublishing/Tableau-Creating-Interactive-Data-Visualizations)
+	- [Tableau 10 Best Practices](https://github.com/PacktPublishing/Tableau-10-Best-Practices)
+	- [Tableau Cookbook – Recipes for Data Visualization](https://github.com/PacktPublishing/Tableau-Cookbook-Recipes-for-Data-Visualization)
+	- [Tableau 10 Bootcamp](https://github.com/PacktPublishing/Tableau-10-Bootcamp)
+	- [Tableau 10 Business Intelligence Cookbook](https://github.com/PacktPublishing/Tableau-10-Business-Intelligence-Cookbook)
