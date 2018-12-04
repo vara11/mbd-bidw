@@ -129,7 +129,7 @@ brew update && brew upgrade
 brew install mysql
 ``` 
 
-  - Install cask using brew (for mac)
+  - Install cask using brew (for mac). More information about [cask](http://caskroom.io).
 
 ``` 
 brew tap caskroom/cask
