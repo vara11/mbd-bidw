@@ -86,6 +86,36 @@ java -jar launcher\launcher.jar -lib ..\libswt\win64
 
 Follow the instructions in this [article](https://help.pentaho.com/Documentation/8.1/Setup/Configuration/Design_Tools_and_Utilities/Memory_Limit) to increase the memory limit in spoon.bat or spoon.sh.
 
+### How do we can improve PDI 8.1 CE startup time?
+
+To optimize startup time, we can remove plugins that our PDI project does not need. In the context of Business Intelligence, we don't need karaf, some OSGi-dependent plugins, as well as the big data plugin. We must create a di-prune and move plugin-related files out of the kettle folder into a the backup location.
+
+``` 
+di-prune
+??? classes
+? ??? kettle-lifecycle-listeners.xml
+? ??? kettle-registry-extensions.xml
+??? lib
+? ??? pdi-engine-api-8.1.0.0?365.jar
+? ??? pdi-engine-spark-8.1.0.0?365.jar
+? ??? pdi-osgi-bridge-core-8.1.0.0?365.jar
+? ??? pdi-spark-driver-8.1.0.0?365.jar
+? ??? pentaho-connections-8.1.0.0?365.jar
+? ??? pentaho-cwm-1.5.4.jar
+? ??? pentaho-hadoop-shims-api-8.1.2018.05.00?365.jar
+? ??? pentaho-osgi-utils-api-8.1.0.0?365.jar
+??? plugins
+? ??? kettle5-log4j-plugin
+? ??? pdi-xml-plugin
+? ??? pentaho-big-data-plugin
+??? system
+ ??? karaf
+ ??? mondrian
+ ??? osgi
+``` 
+
+In case it is needed, further marginal gains can be obtained removing plugins from the plugins folder, as well as jars from the lib folder that are no longer technically required.
+
 ### Are there other open source data integration options?
 
 Yes, many and the amount is growing. Some of them:
