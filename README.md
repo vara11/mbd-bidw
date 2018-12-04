@@ -106,3 +106,56 @@ Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/M
 ### How can I have this repository?
 
 Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com). Are you interested in how Github works? Start [here](https://guides.github.com/activities/hello-world/).
+
+### Is it possible to use homebrew to install the software?
+
+Yes! [Homebrew](https://brew.sh) (for Mac) can help to install the majority of tools (except Tableau) that we need using the terminal. If you are interested open the terminal and follow these steps:
+
+  - Install brew (for Mac)
+  
+``` 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+  - Update and upgrade brew (for mac). 
+
+``` 
+brew update && brew upgrade
+``` 
+
+  - Install MySQL using brew (for mac). Use uninstall to delete.
+
+``` 
+brew install mysql
+``` 
+
+  - Install cask using brew (for mac)
+
+``` 
+brew tap caskroom/cask
+``` 
+
+  - Install MySQL Workbench using brew and cask (for mac). Use uninstall to delete.
+
+``` 
+brew cask search mysql
+brew cask install mysqlworkbench
+``` 
+
+  - Install kettle (pdi) using brew (for mac). Use uninstall to delete.
+
+``` 
+brew install kettle
+``` 
+
+or 
+
+``` 
+brew cask install data-integration
+``` 
+
+  - Uninstall brew (for Mac)
+
+``` 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
+``` 
