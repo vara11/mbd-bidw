@@ -5,7 +5,9 @@
 The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class:
 
   - ETL processes
-  - Data Sets
+  - Exercises and data sets
+  - Examples
+  - Articles
 
 ## Main Concepts
 
@@ -34,3 +36,7 @@ Check this [article](https://help.pentaho.com/Documentation/8.1/Setup/Administra
 ## If MySQL is not performing fast, what can I do?
 
 Check this [article](https://dev.mysql.com/doc/refman/8.0/en/optimization.html).
+
+## Can I use PDI for data quality?
+
+Yes! Check this [article](https://help.pentaho.com/Documentation/6.1/0J0/0C0/050/010).
