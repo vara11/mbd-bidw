@@ -42,7 +42,7 @@ Remember to start the server to be able to use the database. Open MySQL Workbenc
 
 **Install PDI**
 
-We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.1/client-tools/) (in our case: pdi-ce-8.1.0.0-365.zip).
+We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.2/client-tools/) (in our case: pdi-ce-8.2.0.0-324.zip).
 
   - Download the file and unzip.
     - [Mac] Move the data-integration folder into Applications folder
