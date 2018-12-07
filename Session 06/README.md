@@ -27,3 +27,13 @@ Another option is to generate synthetic data. There are many differen approaches
 ### 10 essential rules of dimensional modeling
 
 If using multidimensional architecture, check this [article](https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/).
+
+## References
+
+The following references are academic papers that present advance topics:
+
+  - Optimizing ETL Dataflow Using Shared Caching and Parallelization Methods. [arXiv:1409.1639](https://arxiv.org/abs/1409.1639)
+  - Two-level Data Staging ETL for Transaction Data. [arXiv:1409.1636](https://arxiv.org/abs/1409.1636)
+  - Automatic approach for generating ETL operators. [arXiv:1212.6051](https://arxiv.org/abs/1212.6051)
+  - Outlier Detection Techniques for SQL and ETL Tuning. [arXiv:1203.4163](https://arxiv.org/abs/1203.4163)
+  - Outlier detection from ETL Execution trace. [arXiv:1203.1878](https://arxiv.org/abs/1203.1878)
