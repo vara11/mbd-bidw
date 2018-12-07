@@ -178,4 +178,7 @@ You can use other programs for managing and modelling multiple databases such [H
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-data-vault-2-0-modeling-basics
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-the-business-data-vault
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-building-an-information-mart-with-your-data-vault
-  - Modeling Data Lake Metadata with a Data Vault [arXiv:1807.04035](https://arxiv.org/abs/1807.04035)
+  - Modeling Data Lake Metadata with a Data Vault. [arXiv:1807.04035](https://arxiv.org/abs/1807.04035)
+  - Building an Effective Data Warehousing for Financial Sector. [arXiv:1709.05874](https://arxiv.org/abs/1709.05874)
+  - Benchmarking data warehouses. [arXiv:1701.00399](https://arxiv.org/abs/1701.00399)
+  - Design and implementation of the Customer Experience Data Mart in the Telecommunication Industry: Application Order-To-Payment end to end process. [arXiv:1401.0534](https://arxiv.org/abs/1401.0534)
