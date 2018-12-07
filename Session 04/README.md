@@ -178,3 +178,4 @@ You can use other programs for managing and modelling multiple databases such [H
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-data-vault-2-0-modeling-basics
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-the-business-data-vault
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-building-an-information-mart-with-your-data-vault
+  - Modeling Data Lake Metadata with a Data Vault [arXiv:1807.04035](https://arxiv.org/abs/1807.04035)
