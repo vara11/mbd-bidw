@@ -11,3 +11,7 @@ The topic of this session is **Business Intelligence**. This repository includes
   - What is Business Intelligence
   - Why is needed, benefits and challenges
   - Business Intelligence in the Age of Big Data
+  
+## References
+
+  - Business Intelligence and Supply Chain Agility. [arXiv:1606.03511](https://arxiv.org/abs/1606.03511)
