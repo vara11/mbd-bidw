@@ -160,6 +160,8 @@ sudo rm -rf ~/Library/PreferencePanes/My*
 sudo rm -rf /Library/Receipts/mysql*
 sudo rm -rf /Library/Receipts/MySQL*
 sudo rm -rf /private/var/db/receipts/*mysql*
+sudo rm -rf /var/db/receipts/com.mysql.*
+sudo rm /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ``` 
 
 After this, you need to install again MySQL and keep the auto-generated password. Then:
