@@ -36,7 +36,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
     - These versions will work in MAC OSX and Windows (latest OS versions). In case you have a previous OS version then it may be required to use an older version from [here](https://downloads.mysql.com/archives/installer/).
   - Install all the programs and follow the instructions:
     - [Windows] During the installation process you will configure the password for root user (choose IEMBD2018 or a password that you will remember). Consider a custom installation and choose just the MySQL Server and MySQL Workbench as components to be installed. If you forget the password you will be able to change it using the workbench.
-    - [Mac] During the installation process you will configure the password for root user (choose IEMBD2018 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
+    - [Mac] During the installation process you will configure the password for root user (choose iembd2018 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
     - PDI and Tableau only support **legacy password encription**, not the new strong encription available in MySQL 8. Select this option until the strong encription is supported.
 
 > Note: for Microsoft Windows it is just one installer for MAC, two files.
