@@ -96,6 +96,10 @@ We will use the community version of Dremio Server. It can be downloaded from th
   - You can now navigate to the Dremio UI at http://localhost:9047.
   - Download and install Dremio ODBC for your OS from https://docs.dremio.com/drivers/
 
+**(Optional) Atom**
+
+In case you need a multipurpose text editor, I recommend [Atom](https://atom.io).
+
 ## FAQ
 
 ### Is there a Pentaho Release Product Version Matrix?
