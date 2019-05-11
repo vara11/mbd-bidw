@@ -13,12 +13,12 @@ Add a new sequence for the data set customer_data and save the new file</extende
     </parameters>
     <log>
       <trans-log-table>
-        <connection />
-        <schema />
-        <table />
-        <size_limit_lines />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -43,37 +43,37 @@ Add a new sequence for the data set customer_data and save the new file</extende
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>ERRORS</id>
@@ -127,11 +127,11 @@ Add a new sequence for the data set customer_data and save the new file</extende
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection />
-        <schema />
-        <table />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -209,10 +209,10 @@ Add a new sequence for the data set customer_data and save the new file</extende
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -275,10 +275,10 @@ Add a new sequence for the data set customer_data and save the new file</extende
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -351,10 +351,10 @@ Add a new sequence for the data set customer_data and save the new file</extende
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -403,9 +403,9 @@ Add a new sequence for the data set customer_data and save the new file</extende
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection />
-      <table />
-      <field />
+      <connection/>
+      <table/>
+      <field/>
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -416,7 +416,7 @@ Add a new sequence for the data set customer_data and save the new file</extende
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file />
+    <shared_objects_file/>
     <capture_step_performance>Y</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -448,10 +448,10 @@ Steps:
 (1) Import CSV file
 (2) Add the sequence
 (3) Export data with sequence</note>
-      <xloc>32</xloc>
-      <yloc>16</yloc>
-      <width>329</width>
-      <heigth>186</heigth>
+      <xloc>592</xloc>
+      <yloc>0</yloc>
+      <width>516</width>
+      <heigth>285</heigth>
       <fontname>.AppleSystemUIFont</fontname>
       <fontsize>13</fontsize>
       <fontbold>N</fontbold>
@@ -476,6 +476,11 @@ Steps:
     </hop>
     <hop>
       <from>Add sequence</from>
+      <to>Add constants</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add constants</from>
       <to>Export Data</to>
       <enabled>Y</enabled>
     </hop>
@@ -483,25 +488,26 @@ Steps:
   <step>
     <name>Add sequence</name>
     <type>Sequence</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <valuename>id</valuename>
     <use_database>N</use_database>
-    <connection />
-    <schema />
+    <connection/>
+    <schema/>
     <seqname>SEQ_</seqname>
     <use_counter>Y</use_counter>
-    <counter_name />
+    <counter_name/>
     <start_at>1</start_at>
     <increment_by>1</increment_by>
     <max_value>999999999</max_value>
-    <cluster_schema />
+    <attributes/>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -517,13 +523,13 @@ Steps:
   <step>
     <name>Export Data</name>
     <type>TextFileOutput</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -533,10 +539,10 @@ Steps:
     <footer>N</footer>
     <format>DOS</format>
     <compression>None</compression>
-    <encoding />
-    <endedLine />
+    <encoding/>
+    <endedLine/>
     <fileNameInField>N</fileNameInField>
-    <fileNameField />
+    <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
       <name>${Internal.Entry.Current.Directory}/data_output/tr1_customer_data</name>
@@ -549,7 +555,7 @@ Steps:
       <add_date>N</add_date>
       <add_time>N</add_time>
       <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format />
+      <date_time_format/>
       <add_to_result_filenames>Y</add_to_result_filenames>
       <pad>N</pad>
       <fast_dump>N</fast_dump>
@@ -563,7 +569,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -575,7 +581,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -587,7 +593,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -599,7 +605,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>6</length>
         <precision>2</precision>
@@ -611,7 +617,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>10</length>
         <precision>4</precision>
@@ -623,7 +629,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -635,7 +641,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>5</length>
         <precision>2</precision>
@@ -647,7 +653,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -659,7 +665,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -671,7 +677,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -683,7 +689,7 @@ Steps:
         <currency>£</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
         <precision>0</precision>
@@ -692,16 +698,17 @@ Steps:
         <name>id</name>
         <type>Integer</type>
         <format>#;-#</format>
-        <currency />
+        <currency/>
         <decimal>.</decimal>
         <group>,</group>
-        <nullif />
+        <nullif/>
         <trim_type>none</trim_type>
         <length>-1</length>
         <precision>0</precision>
       </field>
     </fields>
-    <cluster_schema />
+    <attributes/>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -709,7 +716,7 @@ Steps:
       </output>
     </remotesteps>
     <GUI>
-      <xloc>368</xloc>
+      <xloc>464</xloc>
       <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
@@ -717,17 +724,17 @@ Steps:
   <step>
     <name>Import Customer Data CSV</name>
     <type>CsvInput</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <filename>${Internal.Entry.Current.Directory}/data_input/customer_data.csv</filename>
-    <filename_field />
-    <rownum_field />
+    <filename_field/>
+    <rownum_field/>
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -737,7 +744,7 @@ Steps:
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding />
+    <encoding/>
     <fields>
       <field>
         <name>CUST_ID</name>
@@ -861,7 +868,8 @@ Steps:
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema />
+    <attributes/>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -874,9 +882,37 @@ Steps:
       <draw>Y</draw>
     </GUI>
   </step>
+  <step>
+    <name>Add constants</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>240</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step_error_handling>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes/>
 </transformation>
